@@ -4,11 +4,16 @@
     margin: 0;
 }
 
+.Logo {
+    scale: 1;
+}
+
 .navbar {
-    background-color: greenyellow;
+    background-color: white;
     color: black;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .nav-list {
@@ -16,5 +21,25 @@
 }
 
 .nav-list .list-item {
-    display: inline-block
+    display: inline-block;
+    padding: 75px 10px;
+    font-size: 20px;
+}
+
+.nav-list .list-item :hover {
+    color: goldenrod;
+}
+
+body {
+    background-color: yellowgreen;
+}
+
+.Background {
+    padding: 100;
+    scale: 1;
+}
+
+.footer .footer-item {
+    display: inline-block;
+    padding: 10px;
 }
