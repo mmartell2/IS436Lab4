@@ -1,30 +1,72 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>IS About Us</title>
+    <title>IS Contact Us</title>
     <link rel="stylesheet" href="styles.css">
   </head>
 
   <body>
 
-  <header>
-    <nav class="navbar">
+    <header>
+      <nav class="navbar">
+        <div>
+          <a href="index.html"><img class="Logo" src="Images/Navigation/UMBC Logo.png" alt=""></a>
+        </div>
+        <ul class="nav-list">
+          <li class="list-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="list-item">
+            <a class="nav-link" href="undergraduate_program.html">Undergraduate Program</a>
+          </li>
+          <li class="list-item">
+            <a class="nav-link" href="contact_us.html">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
       <div>
-        <a href="index.html"><img class="Logo" src="Images/Navigation/UMBC Logo.png" alt=""></a>
+        <ul>
+          
+          <li><h3>Location:</h3></li>
+          <li>ITE Building Suite 404</li>
+          <li><H3>Contact Information:</H3></li>
+
+          <li>Email</li>
+          <li>Phone Number</li>
+          <li>Contact Us</li>
+          
+          <li><h3>Links:</h3></li>
+          <li><a href="">Contact Us</a></li>
+          <li><a href="">MyUMBC</a></li>
+          
+        </ul>
       </div>
-      <ul class="nav-list">
-        <li class="list-item">
-          <a href="index.html">Home</a>
-        </li>
-        <li class="list-item">
-          <a href="undergraduate_program.html">Undergraduate Program</a>
-        </li>
-        <li class="list-item">
-          <a href="Contact_us.html">Contact Us</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+    </section>
+
+    <section>
+      <form>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname">
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+        <label for="reason">Reason For Message</label>
+        <select id="reason">
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+          <option value="Other">Other</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
 
   <footer>
     <hr class="footer-hr">
