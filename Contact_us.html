@@ -26,46 +26,52 @@
       </nav>
     </header>
 
-    <section>
-      <div>
-        <ul>
+    <hr class="footer-hr">
+    <section class="contact-body">
+      
+      <div class="contact-information">
+        <ul class="ul-contact">
           
-          <li><h3>Location:</h3></li>
-          <li>ITE Building Suite 404</li>
-          <li><H3>Contact Information:</H3></li>
+          <li class="li-contact"><h3>Location:</h3></li>
+          <li class="li-contact">ITE Building Suite 404</li>
+          <li class="li-contact"><H3>Contact Information:</H3></li>
 
-          <li>Email</li>
-          <li>Phone Number</li>
-          <li>Contact Us</li>
+          <li class="li-contact"><a href="mailto:infomrationsystems@umbc.edu">Email</a></li>
+          <li class="li-contact">Phone Number: 410-455-3206</li>
+          <li class="li-contact">Contact Us</li>
           
-          <li><h3>Links:</h3></li>
-          <li><a href="">Contact Us</a></li>
-          <li><a href="">MyUMBC</a></li>
+          <li class="li-contact"><h3>Links:</h3></li>
+          <li class="li-contact"><a href="https://informationsystems.umbc.edu/home/faculty-and-staff/faculty/">Faculty</a></li>
+          <li class="li-contact"><a href="https://my.umbc.edu/">MyUMBC</a></li>
           
         </ul>
       </div>
-    </section>
 
-    <section>
-      <form>
-        <label for="fname">First Name:</label>
-        <input type="text" id="fname">
-        <label for="lname">Last Name:</label>
-        <input type="text" id="lname">
-        <br><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email">
-        <label for="reason">Reason For Message</label>
-        <select id="reason">
-          <option value="A">A</option>
-          <option value="B">B</option>
-          <option value="C">C</option>
-          <option value="D">D</option>
-          <option value="Other">Other</option>
-        </select>
-        <br><br>
-        <input type="submit" value="Submit">
-      </form>
+      <div class="ticket">
+        <h3>IS Help Desk Ticket</h3>
+        <form class="help-ticket">
+          <label for="fname">First Name:</label>
+          <input type="text" id="fname">
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname">
+          <br><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email">
+          <label for="reason">Reason For Message</label>
+          <select id="reason">
+            <option value="A">Schedule Issue</option>
+            <option value="B">IS Degree Questions</option>
+            <option value="C">Certificate Questions</option>
+            <option value="D">Extracurriculars</option>
+            <option value="Other">Other</option>
+          </select>
+          <br><br>
+          <label for="message">Message</label>
+          <input class="message" type="text" id="message">
+          <br><br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
     </section>
 
   <footer>

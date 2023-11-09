@@ -116,7 +116,7 @@
 
 .home-item {
     border: 5px solid white;
-    padding: 15px 5%;
+    padding: 15px 60px;
     display: block;
     text-align: center;
     justify-content: center;
@@ -186,3 +186,37 @@ footer {
 .footer-item:hover {
     opacity: 50%;
 }
+
+.contact-body {
+    display: flex;
+    justify-content: stretch;
+}
+
+.contact-information {
+    display: block;
+    padding: 5px;
+    border-right: 5px solid black;
+    background-color: white;
+    color: black;
+}
+
+.ul-contact{
+    list-style-type: none;
+}
+
+.ticket {
+    padding: 15px;
+    display: block;
+    border: 5px solid black;
+    background-color: white;
+    height: 750px;
+    width: 90%
+
+}
+
+.message {
+    height: 150px;
+    width: 80%;
+}
+
+
