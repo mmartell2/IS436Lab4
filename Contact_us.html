@@ -26,6 +26,7 @@
       </nav>
     </header>
 
+    <hr class="header-hr">
     <hr class="footer-hr">
     <section class="contact-body">
       
@@ -33,16 +34,16 @@
         <ul class="ul-contact">
           
           <li class="li-contact"><h3>Location:</h3></li>
-          <li class="li-contact">ITE Building Suite 404</li>
+          <li class="li-contact"><strong>ITE Building Suite 404</strong></li>
           <li class="li-contact"><H3>Contact Information:</H3></li>
 
-          <li class="li-contact"><a href="mailto:infomrationsystems@umbc.edu">Email</a></li>
-          <li class="li-contact">Phone Number: 410-455-3206</li>
-          <li class="li-contact">Contact Us</li>
+          <li class="li-contact"><a href="mailto:infomrationsystems@umbc.edu">Email</strong></a></li>
+          <li class="li-contact"><strong>Phone Number: 410-455-3206</strong></li>
+          <li class="li-contact"><strong>Contact Us</strong></li>
           
           <li class="li-contact"><h3>Links:</h3></li>
-          <li class="li-contact"><a href="https://informationsystems.umbc.edu/home/faculty-and-staff/faculty/">Faculty</a></li>
-          <li class="li-contact"><a href="https://my.umbc.edu/">MyUMBC</a></li>
+          <li class="li-contact"><a href="https://informationsystems.umbc.edu/home/faculty-and-staff/faculty/" target="_blank"><strong>Faculty</strong></a></li>
+          <li class="li-contact"><a href="https://my.umbc.edu/" target="_blank"><strong>MyUMBC</strong></a></li>
           
         </ul>
       </div>
@@ -51,14 +52,14 @@
         <h3>IS Help Desk Ticket</h3>
         <form class="help-ticket">
           <label for="fname">First Name:</label>
-          <input type="text" id="fname">
+          <input type="text" id="fname" required placeholder="First Name">
           <label for="lname">Last Name:</label>
-          <input type="text" id="lname">
+          <input type="text" id="lname" required placeholder="Last Name">
           <br><br>
           <label for="email">Email:</label>
-          <input type="email" id="email">
+          <input type="email" id="email" required placeholder="Email">
           <label for="reason">Reason For Message</label>
-          <select id="reason">
+          <select id="reason" required placeholder="Select a reason">
             <option value="A">Schedule Issue</option>
             <option value="B">IS Degree Questions</option>
             <option value="C">Certificate Questions</option>
@@ -66,10 +67,10 @@
             <option value="Other">Other</option>
           </select>
           <br><br>
-          <label for="message">Message</label>
-          <input class="message" type="text" id="message">
+          <label for="message">Message</label><br>
+          <textarea name="message" id="message" cols="30" rows="10" required placeholder="Please provide additional information here"></textarea>
           <br><br>
-          <input type="submit" value="Submit">
+          <input class="btn-submit" type="submit" value="Submit">
         </form>
       </div>
     </section>

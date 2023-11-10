@@ -177,6 +177,13 @@ footer {
     padding: 0;
 }
 
+.header-hr {
+    display: block;
+    border-top: 10px solid #fdb515;
+    margin: 0;
+    padding: 0;
+}
+
 
 .footer .footer-item {
     display: inline-block;
@@ -210,13 +217,51 @@ footer {
     border: 5px solid black;
     background-color: white;
     height: 750px;
-    width: 90%
+    width: 90%;
+    text-align: center;
 
 }
 
-.message {
-    height: 150px;
+.help-ticket {
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.help-ticket input {
+    font-size: 20px;
+}
+
+.help-ticket textarea{
+    font-size: 20px;
+    width: 80%;
+
+}
+
+.btn-submit {
+    color: #fdb515;
+    border: 5px solid #fdb515;
+    background-color: black;
+    height: 40px;
     width: 80%;
 }
 
+.btn-submit:hover {
+    background-color: rgb(78, 78, 61);
+}
+
+option { 
+    font-size: 20px;
+}
+
+select {
+    font-size: 20px;
+}
+
+.li-contact h3 {
+    background-color: #fdb515;
+}
+
+.li-contact {
+    text-decoration-color: black;
+}
 
