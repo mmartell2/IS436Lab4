@@ -202,7 +202,7 @@ footer {
 .contact-information {
     display: block;
     padding: 5px;
-    border-right: 5px solid black;
+    border: 5px solid black;
     background-color: white;
     color: black;
 }
@@ -220,6 +220,12 @@ footer {
     width: 90%;
     text-align: center;
 
+}
+
+.ticket h3 {
+    margin-top: 8%;
+    font-size: 50px;
+    margin-bottom: 15px;
 }
 
 .help-ticket {
@@ -265,3 +271,90 @@ select {
     text-decoration-color: black;
 }
 
+.is-department {
+    display: flex;
+}
+
+.course-requirements {
+    display: block;
+    border: 5px solid black;
+}
+.course-requirements h1 {
+    padding: 5px;
+    margin-left: .5%;
+}
+
+.course-requirements h2 {
+    padding: 6px;
+    margin-left: .5%;
+}
+
+.course-requirements h4 {
+    padding: 4px;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #fdb515;
+
+}
+
+.course-requirements p {
+    padding: 5px;
+    margin-left: .5%;
+    margin-right: .5%;
+}
+
+.course-list li {
+    padding: 5px;
+    margin-left: 4%;
+}
+
+.course-list .level2 {
+    margin-left: 6%;
+}
+
+.course-r-title {
+    padding: 2%;
+}
+
+.third-panel {
+    display: block;
+    border: 5px solid black;
+}
+
+.third-panel h4 {
+    padding: 4px;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #fdb515;
+    text-align: left;
+}
+
+.third-panel p {
+    font-size: 17px;
+    text-align: center;
+}
+
+
+
+.third-panel  {
+    text-align: center;
+}
+
+.btn-elective {
+    color: #fdb515;
+    border: 5px solid #fdb515;
+    background-color: black;
+    height: 40px;
+    width: 20%;
+    margin: 10px;
+}
+
+.btn-elective:hover {
+    background-color: rgb(78, 78, 61);
+}
+
+.third-panel img {
+    padding-top: 5px;
+    border: 5px solid black;
+    margin: 10px;
+}
